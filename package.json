@@ -1,0 +1,37 @@
+{
+  "name": "hapi-starter",
+  "version": "0.0.1",
+  "description": "Hapi Starter Template",
+  "main": "index.js",
+  "start": "node index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "david chiu",
+  "license": "",
+  "dependencies": {
+    "firebase": "^2.3.2",
+    "firebase-token-generator": "^2.0.0",
+    "hapi": "^12.1.0",
+    "inert": "^3.2.0",
+    "jade": "^1.11.0",
+    "lodash": "^3.10.1",
+    "vision": "^4.0.1",
+    "wreck": "^7.0.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.11.1",
+    "gulp": "^3.9.1",
+    "gulp-env": "^0.2.0",
+    "gulp-eslint": "^2.0.0",
+    "gulp-nodemon": "^2.0.4",
+    "gulp-sass": "^2.2.0"
+  },
+  "engines": {
+    "node": "4.2.3"
+  }
+}
