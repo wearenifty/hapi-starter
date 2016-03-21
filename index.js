@@ -21,7 +21,13 @@ var initServer = function() {
 };
 
 var initRoutes = function() {
-
+    var views = require('./server/routes/views');
+    var static = require('./server/routes/static');
+    var api = require('./server/routes/api');
+    
+    views.register(server);
+    static.register(server);
+    api.register(server);
 };
 
 initServer();
