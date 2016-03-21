@@ -1,6 +1,13 @@
 /**
  * Created by davidchiu on 3/21/16.
+ *
+ * Inert
+ * https://github.com/hapijs/inert
+ * Static file and directory handling for Hapi
+ *
+ *
  */
+
 var Inert = require('inert');
 
 exports.register = function(server) {

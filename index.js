@@ -1,5 +1,11 @@
 /**
  * Created by davidchiu on 3/21/16.
+ *
+ * A starting point for Hapi projects with:
+ * - Jade templates
+ * - Static resource handling (images, css, js)
+ * - API endpoints
+ *
  */
 
 var Hapi = require('hapi');
