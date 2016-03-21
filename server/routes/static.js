@@ -11,6 +11,14 @@ exports.register = function(server) {
 
         server.route({
             method: 'GET',
+            path: '/favicon.ico',
+            handler: function(request, reply) {
+                reply.file('./public/favicon.ico');
+            }
+        });
+
+        server.route({
+            method: 'GET',
             path: '/js/{param*}',
             handler: {
                 directory: {
