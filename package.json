@@ -14,17 +14,17 @@
   "author": "david chiu",
   "license": "",
   "dependencies": {
-    "firebase": "^2.3.2",
+    "firebase": "^2.4.2",
     "firebase-token-generator": "^2.0.0",
-    "hapi": "^12.1.0",
+    "hapi": "^13.3.0",
     "inert": "^3.2.0",
     "jade": "^1.11.0",
-    "lodash": "^3.10.1",
-    "vision": "^4.0.1",
-    "wreck": "^7.0.0"
+    "lodash": "^4.10.0",
+    "vision": "^4.1.0",
+    "wreck": "^7.1.0"
   },
   "devDependencies": {
-    "browser-sync": "^2.11.1",
+    "browser-sync": "^2.12.1",
     "gulp": "^3.9.1",
     "gulp-env": "^0.2.0",
     "gulp-eslint": "^2.0.0",
@@ -33,6 +33,6 @@
     "gulp-sass": "^2.2.0"
   },
   "engines": {
-    "node": "4.2.3"
+    "node": "5.10.1"
   }
 }
